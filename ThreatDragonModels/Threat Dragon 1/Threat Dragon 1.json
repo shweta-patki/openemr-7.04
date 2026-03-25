@@ -139,13 +139,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2078,6 +2071,40 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 13,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "284cf3ff-1c93-427f-bec3-a35f4a87a0b4",
+            "source": {
+              "x": 720,
+              "y": 70
+            },
+            "target": {
+              "x": 620,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 674,
+                "y": 80
+              }
+            ]
           }
         ]
       }
