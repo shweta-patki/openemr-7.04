@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1-RC1",
+  "version": "2.6.0",
   "summary": {
     "title": "Threat Dragon 1",
     "owner": "",
@@ -7,7 +7,14 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Onkar1300"
+      },
+      {
+        "name": "Sbaichwal"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
