@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1-RC1",
   "summary": {
     "title": "Threat Dragon 1",
     "owner": "",
@@ -45,6 +45,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -128,7 +129,6 @@
               ]
             },
             "id": "7359c71b-67f6-417c-84cf-90b5f20a126d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Doctor",
@@ -139,6 +139,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -162,6 +169,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -245,7 +253,6 @@
               ]
             },
             "id": "2b0e029d-2022-46d1-b816-af8675dafbf8",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Login",
@@ -282,6 +289,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -365,7 +373,6 @@
               ]
             },
             "id": "d9cc4f1e-d612-4fb4-9abc-d42f66762e3e",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Receptionist",
@@ -399,6 +406,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -482,7 +490,6 @@
               ]
             },
             "id": "d8690e54-671e-4cb9-ab3e-9acfef5fe32d",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Schedule ",
@@ -519,6 +526,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -602,7 +610,6 @@
               ]
             },
             "id": "d033e9dd-bfe8-4b4f-8d60-4e14ccd02039",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Prescription",
@@ -639,6 +646,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -722,7 +730,6 @@
               ]
             },
             "id": "295a127f-2292-4e60-b26d-773acd7cea4a",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Add Patient",
@@ -762,6 +769,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -845,7 +853,6 @@
               ]
             },
             "id": "f7a31fc2-b594-4e36-98ae-16dc267c0382",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Patient Contact",
@@ -883,6 +890,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -966,7 +974,6 @@
               ]
             },
             "id": "a1f1b7ef-2700-4241-aa91-e20393379495",
-            "zIndex": 9,
             "data": {
               "type": "tm.Process",
               "name": "Health details",
@@ -1006,6 +1013,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1089,7 +1097,6 @@
               ]
             },
             "id": "9f8ba1d7-e357-4fb6-9464-9bfa77e96207",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Patient Insurance",
@@ -1848,6 +1855,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1931,7 +1939,6 @@
               ]
             },
             "id": "445fee9a-e653-48f7-ba6e-c8632539f00f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Doctor Details",
@@ -1972,6 +1979,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2055,7 +2063,6 @@
               ]
             },
             "id": "9733076b-a57d-43cc-af7c-9cda9f6820ee",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Patient health chart",
