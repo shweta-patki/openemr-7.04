@@ -2297,6 +2297,53 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "b0e11980-7534-45fb-bbf7-889dc84e68ce",
+            "source": {
+              "cell": "295a127f-2292-4e60-b26d-773acd7cea4a",
+              "port": "2c81c427-c3eb-43e3-86cc-b5a9863959f7"
+            },
+            "target": {
+              "cell": "a1f1b7ef-2700-4241-aa91-e20393379495",
+              "port": "4bb8f538-ce7c-46b0-aa5d-9c165f502808"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 859,
               "y": 471
@@ -2719,6 +2766,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2802,7 +2850,6 @@
               ]
             },
             "id": "96e29af6-48a3-42f7-b7f8-d1fda50fbcfc",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "Emergency Login",
